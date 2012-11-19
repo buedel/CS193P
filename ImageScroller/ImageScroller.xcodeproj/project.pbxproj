@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443D07401646D3FE006A718C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443D073F1646D3FE006A718C /* UIKit.framework */; };
+		443D07421646D3FE006A718C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443D07411646D3FE006A718C /* Foundation.framework */; };
+		443D07441646D3FE006A718C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443D07431646D3FE006A718C /* CoreGraphics.framework */; };
+		443D074A1646D3FE006A718C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 443D07481646D3FE006A718C /* InfoPlist.strings */; };
+		443D074C1646D3FE006A718C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 443D074B1646D3FE006A718C /* main.m */; };
+		443D07501646D3FE006A718C /* ImageScrollerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443D074F1646D3FE006A718C /* ImageScrollerAppDelegate.m */; };
+		443D07521646D3FE006A718C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 443D07511646D3FE006A718C /* Default.png */; };
+		443D07541646D3FE006A718C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 443D07531646D3FE006A718C /* Default@2x.png */; };
+		443D07561646D3FE006A718C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 443D07551646D3FE006A718C /* Default-568h@2x.png */; };
+		443D075F1646D3FE006A718C /* ImageScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443D075E1646D3FE006A718C /* ImageScrollerViewController.m */; };
+		443D07661646D46C006A718C /* DougAtZoo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 443D07651646D46C006A718C /* DougAtZoo.jpg */; };
+		443D076C1646E443006A718C /* champs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 443D076B1646E443006A718C /* champs.jpg */; };
+		443D076E1646E474006A718C /* iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443D076D1646E474006A718C /* iphone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		443D073B1646D3FE006A718C /* ImageScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		443D073F1646D3FE006A718C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		443D07411646D3FE006A718C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		443D07431646D3FE006A718C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		443D07471646D3FE006A718C /* ImageScroller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageScroller-Info.plist"; sourceTree = "<group>"; };
+		443D07491646D3FE006A718C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		443D074B1646D3FE006A718C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		443D074D1646D3FE006A718C /* ImageScroller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageScroller-Prefix.pch"; sourceTree = "<group>"; };
+		443D074E1646D3FE006A718C /* ImageScrollerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageScrollerAppDelegate.h; sourceTree = "<group>"; };
+		443D074F1646D3FE006A718C /* ImageScrollerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageScrollerAppDelegate.m; sourceTree = "<group>"; };
+		443D07511646D3FE006A718C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		443D07531646D3FE006A718C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		443D07551646D3FE006A718C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		443D075D1646D3FE006A718C /* ImageScrollerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageScrollerViewController.h; sourceTree = "<group>"; };
+		443D075E1646D3FE006A718C /* ImageScrollerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageScrollerViewController.m; sourceTree = "<group>"; };
+		443D07651646D46C006A718C /* DougAtZoo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DougAtZoo.jpg; sourceTree = "<group>"; };
+		443D076B1646E443006A718C /* champs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = champs.jpg; sourceTree = "<group>"; };
+		443D076D1646E474006A718C /* iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iphone.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		443D07381646D3FD006A718C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443D07401646D3FE006A718C /* UIKit.framework in Frameworks */,
+				443D07421646D3FE006A718C /* Foundation.framework in Frameworks */,
+				443D07441646D3FE006A718C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443D07301646D3FD006A718C = {
+			isa = PBXGroup;
+			children = (
+				443D076B1646E443006A718C /* champs.jpg */,
+				443D07451646D3FE006A718C /* ImageScroller */,
+				443D073E1646D3FE006A718C /* Frameworks */,
+				443D073C1646D3FE006A718C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		443D073C1646D3FE006A718C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443D073B1646D3FE006A718C /* ImageScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		443D073E1646D3FE006A718C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				443D073F1646D3FE006A718C /* UIKit.framework */,
+				443D07411646D3FE006A718C /* Foundation.framework */,
+				443D07431646D3FE006A718C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		443D07451646D3FE006A718C /* ImageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				443D07651646D46C006A718C /* DougAtZoo.jpg */,
+				443D074E1646D3FE006A718C /* ImageScrollerAppDelegate.h */,
+				443D074F1646D3FE006A718C /* ImageScrollerAppDelegate.m */,
+				443D075D1646D3FE006A718C /* ImageScrollerViewController.h */,
+				443D075E1646D3FE006A718C /* ImageScrollerViewController.m */,
+				443D07461646D3FE006A718C /* Supporting Files */,
+				443D076D1646E474006A718C /* iphone.storyboard */,
+			);
+			path = ImageScroller;
+			sourceTree = "<group>";
+		};
+		443D07461646D3FE006A718C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				443D07471646D3FE006A718C /* ImageScroller-Info.plist */,
+				443D07481646D3FE006A718C /* InfoPlist.strings */,
+				443D074B1646D3FE006A718C /* main.m */,
+				443D074D1646D3FE006A718C /* ImageScroller-Prefix.pch */,
+				443D07511646D3FE006A718C /* Default.png */,
+				443D07531646D3FE006A718C /* Default@2x.png */,
+				443D07551646D3FE006A718C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		443D073A1646D3FD006A718C /* ImageScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443D07621646D3FE006A718C /* Build configuration list for PBXNativeTarget "ImageScroller" */;
+			buildPhases = (
+				443D07371646D3FD006A718C /* Sources */,
+				443D07381646D3FD006A718C /* Frameworks */,
+				443D07391646D3FD006A718C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageScroller;
+			productName = ImageScroller;
+			productReference = 443D073B1646D3FE006A718C /* ImageScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		443D07321646D3FD006A718C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ImageScroller;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = buedel;
+			};
+			buildConfigurationList = 443D07351646D3FD006A718C /* Build configuration list for PBXProject "ImageScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 443D07301646D3FD006A718C;
+			productRefGroup = 443D073C1646D3FE006A718C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				443D073A1646D3FD006A718C /* ImageScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		443D07391646D3FD006A718C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443D074A1646D3FE006A718C /* InfoPlist.strings in Resources */,
+				443D07521646D3FE006A718C /* Default.png in Resources */,
+				443D07541646D3FE006A718C /* Default@2x.png in Resources */,
+				443D07561646D3FE006A718C /* Default-568h@2x.png in Resources */,
+				443D07661646D46C006A718C /* DougAtZoo.jpg in Resources */,
+				443D076C1646E443006A718C /* champs.jpg in Resources */,
+				443D076E1646E474006A718C /* iphone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		443D07371646D3FD006A718C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443D074C1646D3FE006A718C /* main.m in Sources */,
+				443D07501646D3FE006A718C /* ImageScrollerAppDelegate.m in Sources */,
+				443D075F1646D3FE006A718C /* ImageScrollerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		443D07481646D3FE006A718C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443D07491646D3FE006A718C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		443D07601646D3FE006A718C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		443D07611646D3FE006A718C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		443D07631646D3FE006A718C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageScroller/ImageScroller-Prefix.pch";
+				INFOPLIST_FILE = "ImageScroller/ImageScroller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		443D07641646D3FE006A718C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageScroller/ImageScroller-Prefix.pch";
+				INFOPLIST_FILE = "ImageScroller/ImageScroller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		443D07351646D3FD006A718C /* Build configuration list for PBXProject "ImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443D07601646D3FE006A718C /* Debug */,
+				443D07611646D3FE006A718C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443D07621646D3FE006A718C /* Build configuration list for PBXNativeTarget "ImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443D07631646D3FE006A718C /* Debug */,
+				443D07641646D3FE006A718C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 443D07321646D3FD006A718C /* Project object */;
+}

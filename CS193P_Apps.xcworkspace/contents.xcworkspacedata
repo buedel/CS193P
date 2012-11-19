@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:GraphingCalculator/Calculator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FlickrFetcher/FlickrFetcher.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AVFoundationDemo/AVFoundationDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ImageScroller/ImageScroller.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HappyFace/HappyFace.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Shrink/Shrink.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Imaginarium/Imaginarium.xcodeproj">
+   </FileRef>
+</Workspace>
